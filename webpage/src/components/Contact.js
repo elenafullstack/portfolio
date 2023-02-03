@@ -31,7 +31,7 @@ const Contact =()=> {
             </div>
          </div>
          <h2 className={styles.account}>My accounts</h2>
-         <div><button onClick={()=>linkedin()}>Linkedin</button><button onClick={()=>github()}>Github</button></div>
+         <div className={styles.buttons}><button onClick={()=>linkedin()}>Linkedin</button><button onClick={()=>github()}>Github</button></div>
      </div>
  )
 }

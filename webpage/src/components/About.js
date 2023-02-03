@@ -32,10 +32,8 @@ const About = () => {
 
        <section>
            <div>
-                <p>I am 24 years old software engineer student from Aalto University, Finland. 
-                I am passionate about programming,  specializing in web development. 
-                My strength is in fullstack programming, understanding the communication 
-                between frontend and backend
+                <p>One of my passions is also traveling, exploring cultures and learning languages. I have had two exchange semesters during my studies, 
+                    one in Mexico and another in Panama. 
                 </p>
             </div>
             <div>

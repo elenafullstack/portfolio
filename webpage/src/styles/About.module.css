@@ -41,3 +41,43 @@
     content: '';
 
 }
+
+@media (max-width: 900px) {
+
+  .parent  *{
+        font-size: 1rem !important;
+    }
+    .parent section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parent section>div {
+        width:90%;
+        text-align: center;
+    }
+
+    .parent img {
+        width:80%;
+    }
+
+    .parent section:nth-child(2){
+        display: flex;
+        flex-direction: column-reverse !important;
+      }
+
+      .parent p {
+          padding-top:10% !important;
+          padding-bottom:8%;
+      }
+
+      .parent p:nth-child(1) {
+        padding-top:7% !important;
+     
+    }
+
+      .parent {
+          margin-bottom:7%;
+      }
+
+}
