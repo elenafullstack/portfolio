@@ -1,0 +1,43 @@
+.parent section>div {
+    width:50%;
+    display:inline-flex;
+    padding: 0 5%;
+    height:100%;
+    
+}
+
+.parent section:nth-child(1) {
+    margin-top: 5%;
+}
+
+.parent section {
+    display: flex;
+}
+
+.parent img {
+    width:80%;
+    margin:auto;
+
+}
+
+.parent {
+   margin: 0 10% 0 6%;
+    
+}
+
+.parent *{
+    box-sizing: border-box;
+}
+
+.parent p {
+    padding-top:20%;
+    font-weight:400px;
+    color:#976E6E;
+    font-size: 1.3rem;
+    font-family: 'Poppins'; 
+}
+
+.parent section:nth-child(1) div:nth-child(2)::after {
+    content: '';
+
+}

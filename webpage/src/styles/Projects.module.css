@@ -1,0 +1,98 @@
+.projects section {
+    margin-top: 4% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.projects img {
+    width:50%;
+    background-color: transparent;
+
+  
+}
+
+.title {
+    text-align: center;
+   color: #926a6a;
+   font-family: Poppins;
+   font-weight: bold;
+}
+
+.projects section h2 {
+   margin:auto;
+   text-align: center;
+   color:#926a6a;
+   font-family: Poppins;
+   font-weight: bold;
+   background-color: transparent;
+
+}
+
+.special {
+    font-size: 1.2rem;
+}
+
+.projects section>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:24%;
+    overflow: hidden;
+    margin: 0 1.5% 8% 1.5%;
+   height:350px;
+
+}
+
+ .projects section>div:hover {
+    background-color: #d18484;
+
+
+}
+
+.projects section>div:hover .link {
+    display:block;
+    background-color: #d18484;
+    text-align: center;
+    font-size:1.8rem;
+    margin-bottom:4%;
+    text-decoration: none;
+    font-family: Poppins;
+    color: white;
+    font-weight: bold;
+}
+
+.projects section>div:hover * {
+display:none;
+
+}
+
+.projects section>div:hover .link:hover {
+    color:#684b4b;
+}
+
+
+
+.projects section * {
+    background-color: rgb(246, 235, 237 ); 
+    border-radius: 3%;
+    
+
+}
+
+.projects section>div>div {
+    display: flex;
+    width:90%;
+    margin-bottom:13%;
+    
+
+
+
+}
+
+.link {
+    display:none;
+}

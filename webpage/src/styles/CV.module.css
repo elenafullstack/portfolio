@@ -1,0 +1,30 @@
+.cv {
+    display: flex;
+}
+
+.cv img {
+    width:100%;
+}
+
+.cv div {
+    width: 28%;
+    
+}
+
+.cv div:nth-child(1) {
+    margin: 0 3% 0 3%
+}
+
+.cv a {
+    margin-left: 4%;
+    margin-top:1%;
+    color: #C19292;
+    font-family: Poppins;
+    font-weight:bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.cv a:hover {
+   color: #e78383;
+}
