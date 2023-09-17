@@ -23,7 +23,7 @@ console.log(props.title)
  return (
 
    <header className={styles.header1}>
-    <h1>Elena Rima</h1>
+       <button className={styles.logo}onClick={()=>navigate('/contact')}>Elena Rima</button>
         <nav>
           <ul className={styles.navelements}>  
 

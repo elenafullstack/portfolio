@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 
 }
@@ -88,8 +89,6 @@ display:none;
     width:90%;
     margin-bottom:13%;
     
-
-
 
 }
 

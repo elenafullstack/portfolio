@@ -163,9 +163,28 @@
 
 }
 
-@media (max-width: 450px) {
+
+@media (max-width: 530px) {
+    .photo {
+        height:300px;
+    }
+
+}
+
+
+
+@media (max-width: 470px) {
     .photo {
         height:280px;
     }
 
 }
+
+
+@media (max-width: 420px) {
+    .photo {
+        height:235px;
+    }
+
+}
+

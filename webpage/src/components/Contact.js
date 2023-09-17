@@ -17,7 +17,7 @@ const Contact =()=> {
              Contact me
          </h1>
         <div> 
-            <p className={styles.text}>Want help building your software/web application? Do you think I would be a good asset in your company? Don’t hesitate to be in touch with me!
+            <p className={styles.text}> Do you think I would be a valuable addition to your team? Please feel free to reach out to me!
             </p>
         </div>
         <div className={styles.info}>
